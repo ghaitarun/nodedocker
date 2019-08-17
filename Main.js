@@ -16,15 +16,15 @@ app.get('/listUsers', function (req, res) {
 });
 
 app.get('/greeting', function (req, res) {
-   console.log("Welcome to my world");
-   res.end("Welcome to my world");
+   console.log("Welcome to Oracle World");
+   res.end("Welcome to Oracle World");
 });
 
 
 
 var user = {
    "user4" : {
-      "name" : "mohit",
+      "name" : "tarun",
       "password" : "password4",
       "profession" : "teacher",
       "id": 4
